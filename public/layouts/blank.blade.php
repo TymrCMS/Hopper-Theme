@@ -7,16 +7,16 @@
 		<!-- Tell the browser to be responsive to screen width -->
 		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 		<!-- Bootstrap 3.3.6 -->
-		<link href="{{ asset('css/AdminLTE-Bootstrap.css') }}" rel="stylesheet">
+		<link href="{{ asset('themes/hopper/css/AdminLTE-Bootstrap.css') }}" rel="stylesheet">
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!-- Ionicons -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 		<!-- Theme style -->
-		<link href="{{ asset('css/AdminLTE.min.css') }}" rel="stylesheet">
+		<link href="{{ asset('themes/hopper/css/AdminLTE.min.css') }}" rel="stylesheet">
 		<!-- AdminLTE Skins. Choose a skin from the css/skins
 		   folder instead of downloading all of them to reduce the load. -->
-		<link href="{{ asset('css/AdminLTE-skin-blue-light.css') }}" rel="stylesheet">
+		<link href="{{ asset('themes/hopper/css/AdminLTE-skin-blue-light.css') }}" rel="stylesheet">
 
 		@yield('aftercss')
 
@@ -78,7 +78,7 @@
               Version <small>0.0.1</small>
               {!! SiteMap() !!}
             </div>
-            <small>Copyright &copy; 2018 <a href="http://tymr.app">Tymr Corp</a>. All rights reserved.</small>
+            <small>Copyright &copy; 2020 <a href="http://tymr.localhost">Tymr Corp</a>. All rights reserved.</small>
           </footer>
 
 
@@ -86,16 +86,16 @@
 
 
 		<!-- jQuery 2.2.3 -->
-		<script src="{{ asset('js/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js') }}"></script>
+		<script src="{{ asset('themes/hopper/js/plugins/jQuery/jquery-2.2.3.min.js') }}"></script>
 
 		<!-- Bootstrap 3.3.6 -->
-		<script src="{{ asset('js/AdminLTE/plugins/bootstrap/bootstrap.3.3.7.min.js') }}"></script>
+		<script src="{{ asset('themes/hopper/js/plugins/bootstrap/bootstrap.3.3.7.min.js') }}"></script>
 
 		<!-- AdminLTE App -->
-		<script src="{{ asset('js/AdminLTE/app.js') }}"></script>
+		<script src="{{ asset('themes/hopper/js/app.js') }}"></script>
 
 		<!-- Connect the FrontEnd with the Server -->
-		<script src="{{ asset('js/AdminLTE/connecter.js') }}"></script>
+		<script src="{{ asset('themes/hopper/js/connecter.js') }}"></script>
 
 		@yield('afterjs')
 
